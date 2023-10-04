@@ -3,10 +3,6 @@
 
 int main() {
 
-    int basicSalary = 600;
-    int sellBonus = 100;
-    float invoicedSales = 1.50 / 100;
-
     printf("Please insert the number of cars sold: ");
 
     int carsSold;
@@ -17,6 +13,10 @@ int main() {
     scanf("%d", &volumeInvoicedSales);
 
     printf("\n\nSALARY DETAILS:\n");
+
+    int basicSalary = 600;
+    int sellBonus = 100;
+    float invoicedSales = 1.50 / 100;
 
     printf("Basic salary: %d\n", basicSalary);
 
