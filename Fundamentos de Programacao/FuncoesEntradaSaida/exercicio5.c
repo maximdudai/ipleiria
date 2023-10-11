@@ -12,22 +12,20 @@ int main() {
     float second;
     scanf("%f", &second);
 
-    float somNumber = first + second;
-    printf("\nThe sum of the two numbers is %.3f", somNumber);
+    float sumNumber = first + second;
+    printf("\nThe sum of the two numbers is %.2f", sumNumber);
 
     float subNumber = first - second;
-    printf("\nThe substraction of the two number is %.3f", subNumber);
+    printf("\nThe subtraction of the two numbers is %.2f", subNumber);
 
     float multNumber = first * second;
-    printf("\nThe multiplication of the two number is %.3f", multNumber);
+    printf("\nThe multiplication of the two numbers is %.2f", multNumber);
 
     float divNumber = first / second;
-    printf("\nThe division of the two number is %.3f", divNumber);
+    printf("\nThe division of the two numbers is %.2f", divNumber);
 
     int percentNumber = (int)first % (int)second;
-    printf("\nThe division of the two number is %d", percentNumber);
-
-
+    printf("\nThe remainder of the division of the two numbers is %d", percentNumber);
 
     return 0;
 }
