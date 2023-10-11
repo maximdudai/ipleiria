@@ -3,15 +3,19 @@
 
 int main() {
 
-  printf("Indique um numero");
+  printf("Indique um numero ");
   int num;
   scanf("%d", &num);
 
-  if (num % 2 == 0) {
-    printf("%d e par", num);
-  } else {
-    printf("%d e impar", num);
-  }
-  
+  switch (num)
+  {
+    default:
+      printf("Invalido");
+    case 0:
+      printf("0"); break;
+
+    case 1:
+      printf("1"); break;
+  }  
   return 0;
 }
