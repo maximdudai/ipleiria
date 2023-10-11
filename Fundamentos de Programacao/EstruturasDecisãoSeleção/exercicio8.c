@@ -11,12 +11,11 @@ int main() {
   printf("Insert number of independents: ");
   int independents;
   scanf("%d", &independents);
-
   float salaryBonus, finalSalary;
+
 
   switch (salary)
   {
-
     case 600:
       salaryBonus = independents >= 2 ? 0.09 : 0.05;
       break;

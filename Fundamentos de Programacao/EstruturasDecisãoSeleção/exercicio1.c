@@ -22,5 +22,7 @@ int main() {
   else
     printf("\nNumero impar!");
 
+  fflush(stdin);
+  getchar();
   return 0;
 }
