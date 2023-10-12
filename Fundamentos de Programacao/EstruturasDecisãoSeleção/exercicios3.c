@@ -46,6 +46,7 @@ int main() {
     printf("Mês correspondente: Dezembro");
     break;
   
+  default:
     printf("Mes invalido");
   }
 
