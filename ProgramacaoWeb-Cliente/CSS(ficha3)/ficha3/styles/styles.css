@@ -1,0 +1,60 @@
+/* 2a */
+.container {
+  width: 950px;
+  margin: 15px auto;
+  position: relative;
+  font: Arial, Helvetica, sans-serif 12px;
+  background: rgb(239, 239, 239);
+}
+
+/* 2b */
+#zonaPublicidade {
+  position: absolute;
+  width: 140px;
+  top: 0;
+  right: -150px;
+}
+
+/* 2c */
+#zonaConteudo header {
+  background: white;
+  position: relative;
+  height: 100px;
+  padding-top: 10px;
+}
+
+/* 2d */
+
+#zonaFotografia {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  right: 30px;
+  background-image: url('../img/bilhetes_pipocas_oculos_3d_v3.jpg');
+  border-radius: 60px;
+  box-shadow: 10px 5px rgb(234,234, 234);
+}
+
+/* 2e */
+#zonaLogotipo, #zonaTitulos {
+  float: left;
+  height: 90px;
+}
+
+/* 2f */
+#zonaLogotipo {
+  width: 134px;
+  margin-left: 30px;
+}
+#zonaLogotipo img {
+  height: 70px;
+  margin: 7px 0 0 0;
+}
+
+/* 2g */
+#zonaTitulos {
+  margin-left: 30px;
+  width: calc(100% - 344px);
+  text-align: center;
+  letter-spacing: 2px;
+}
