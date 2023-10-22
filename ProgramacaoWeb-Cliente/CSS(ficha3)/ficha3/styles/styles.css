@@ -6,55 +6,128 @@
   font: Arial, Helvetica, sans-serif 12px;
   background: rgb(239, 239, 239);
 }
+/* temporar */
+img {
+  width: 100px;
+}
 
 /* 2b */
 #zonaPublicidade {
-  position: absolute;
   width: 140px;
-  top: 0;
-  right: -150px;
+  position: absolute;
+  margin-right: -150px;
 }
-
 /* 2c */
-#zonaConteudo header {
-  background: white;
+header {
   position: relative;
-  height: 100px;
-  padding-top: 10px;
+  height: 140px;
+  margin-top: 10px;
 }
-
 /* 2d */
-
 #zonaFotografia {
   width: 100px;
   height: 100px;
   position: absolute;
-  right: 30px;
+  margin-right: 30px;
   background-image: url('../img/bilhetes_pipocas_oculos_3d_v3.jpg');
   border-radius: 60px;
-  box-shadow: 10px 5px rgb(234,234, 234);
+  box-shadow: 1px 1px 1px 1px #000;
 }
-
 /* 2e */
 #zonaLogotipo, #zonaTitulos {
-  float: left;
   height: 90px;
+  float: right;
 }
-
 /* 2f */
 #zonaLogotipo {
   width: 134px;
   margin-left: 30px;
 }
-#zonaLogotipo img {
-  height: 70px;
-  margin: 7px 0 0 0;
+#imgLogotipo {
+  margin-top: 7px;
+  width: 70px;
 }
-
 /* 2g */
 #zonaTitulos {
-  margin-left: 30px;
+  margin-left: 10px;
   width: calc(100% - 344px);
   text-align: center;
   letter-spacing: 2px;
+}
+/* 2h */
+#zonaTitulos h1 {
+  font-size: 40px;
+  color: #9c4b1c;
+}
+#zonaTitulos h1::first-letter {
+  color: black;
+}
+#zonaTitulos h3 {
+  margin: 0;
+}
+/* 2i */
+#menuPrincipal {
+  background-color: white;
+  padding: 0 6px;
+  min-height: 48px;
+  border-top: 3px solid #9c4b1c; 
+  border-bottom: 3px solid #9c4b1c; 
+}
+/* 2j */
+#menuPrincipal ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 8px 4px;
+  height: 30px;
+  background-color: #fff;
+}
+/* 2k */
+#menuPrincipal ul li:last-child {
+  float: right;
+}
+/* 2l */
+#menuPrincipal ul li a {
+  color: #9C4B1C;
+  text-decoration: none;
+  /* something else */
+}
+.itemDesativado {
+  background-color: lightgray;
+  color: darkgray;
+}
+/* 2m */
+footer {
+  width: 100%;
+  background-color: white;
+  height: 30px;
+  text-align: center;
+  font-size: 9px;
+  font-style: italic;
+}
+/* 2n */
+#zonaConteudo {
+  background-color: white;
+  font-size: 11px;
+}
+/* 2o */
+#zonaConteudo header h2 {
+  display: inline-block;
+  margin: 0 10px;
+  color: black;
+  font-size: 20px;
+  letter-spacing: 3px;
+  border-bottom: 2px dotted #9c4b1c;
+}
+#zonaConteudo header h2::first-letter {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+/* 2p */
+#zonaConteudo form fieldset {
+  width: 96%;
+  border: 1px solid black;
+  margin: 20px 2%;
+  border-collapse: 0;
+  /* Todas as colunas devem ter uma
+border à esquerda de 1px do tipo sólido de cor preta. */
 }
