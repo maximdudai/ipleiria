@@ -43,9 +43,9 @@ header {
   width: 134px;
   margin-left: 30px;
 }
-#imgLogotipo {
+#zonaLogotipo img {
   margin-top: 7px;
-  width: 70px;
+  height: 70px;
 }
 /* 2g */
 #zonaTitulos {
@@ -55,29 +55,33 @@ header {
   letter-spacing: 2px;
 }
 /* 2h */
+#zonaTitulos h1, #zonaTitulos h3 {
+  margin: 0;
+}
+
 #zonaTitulos h1 {
   font-size: 40px;
   color: #9c4b1c;
 }
-#zonaTitulos h1::first-letter {
+
+#zonaTitulos h1:first-letter {
   color: black;
 }
-#zonaTitulos h3 {
-  margin: 0;
-}
 /* 2i */
-#menuPrincipal {
+nav {
   background-color: white;
   padding: 0 6px;
   min-height: 48px;
   border-top: 3px solid #9c4b1c; 
-  border-bottom: 3px solid #9c4b1c; 
+  border-bottom: 3px solid #9c4b1c;;
 }
 /* 2j */
-#menuPrincipal ul li {
+nav ul li {
   display: inline-block;
   list-style: none;
   margin: 8px 4px;
+  padding: 0 10px;
+  line-height: 30px;
   height: 30px;
   background-color: #fff;
 }
@@ -85,19 +89,26 @@ header {
 #menuPrincipal ul li:last-child {
   float: right;
 }
+#paginacao {
+  text-align: center;
+}
 /* 2l */
-#menuPrincipal ul li a {
+nav ul li a {
   color: #9C4B1C;
   text-decoration: none;
-  /* something else */
+    
 }
+nav li.itemSelecionado, nav li:hover, nav li:hover a {
+  background-color: #9c4b1c;
+  color: white;
+}
+
 .itemDesativado {
   background-color: lightgray;
   color: darkgray;
 }
 /* 2m */
 footer {
-  width: 100%;
   background-color: white;
   height: 30px;
   text-align: center;
@@ -108,26 +119,56 @@ footer {
 #zonaConteudo {
   background-color: white;
   font-size: 11px;
+  margin: 0;
+  padding: 0;
 }
 /* 2o */
-#zonaConteudo header h2 {
+#zonaConteudo h2 {
   display: inline-block;
   margin: 0 10px;
-  color: black;
   font-size: 20px;
+  color: black;
   letter-spacing: 3px;
   border-bottom: 2px dotted #9c4b1c;
 }
-#zonaConteudo header h2::first-letter {
+#zonaConteudo h2:first-letter {
   font-size: 1.5rem;
   font-weight: bold;
 }
 /* 2p */
-#zonaConteudo form fieldset {
+#zonaConteudo table {
   width: 96%;
-  border: 1px solid black;
   margin: 20px 2%;
-  border-collapse: 0;
-  /* Todas as colunas devem ter uma
-border à esquerda de 1px do tipo sólido de cor preta. */
+  border-collapse: collapse;
+  border: 1px solid black;
+  text-align: left;
+}
+
+#zonaConteudo table th, #zonaConteudo table td {
+  border-left: 1px solid black;
+}
+/* 2q */
+#zonaConteudo table tr {
+  border-bottom: 1px dashed #9C4B1C;
+}
+#zonaConteudo tbody tr:nth-child(4n) {
+  border-bottom: 1px solid black;
+}
+#zonaConteudo thead {
+  border-bottom: 3px double black;
+}
+
+#zonaConteudo tbody tr:hover {
+  background-color: #9C4B1C;
+  color: white;
+}
+/* 2r */
+#gridListFilmes td:last-child {
+  width: 30px;
+  padding: 0;
+}
+
+#gridListFilmes td:last-child img {
+  width: 28px;
+  margin-top: 2px;
 }
