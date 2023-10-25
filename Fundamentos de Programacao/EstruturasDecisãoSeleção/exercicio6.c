@@ -8,11 +8,28 @@ int main() {
     scanf("%d", &number);
 
     int result = 0;
-    for(int i = 1; i <= number; i++)
+    
+    switch (number)
     {
-      result += i;
+      case 10: result += 10;
+      case 9: result += 9;
+      case 8: result += 8;
+      case 7: result += 7;
+      case 6: result += 6;
+      case 5: result += 5;
+      case 4: result += 4;
+      case 3: result += 3;
+      case 2: result += 2;
+      case 1: 
+        result += 1;
+        break;
+
+      default:
+        printf("Invalid number\n"); 
     }
 
-    printf("The result is: %d\n", result);
+    if(result)
+      printf("The result is: %d\n", result);
+      
     return 0;
 }

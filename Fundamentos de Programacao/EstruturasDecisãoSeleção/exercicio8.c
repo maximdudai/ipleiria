@@ -18,7 +18,6 @@ int main() {
 
   printf("\nsalary bonus: %d\n category: %d\n", salaryBonus, category);
 
-
   switch (category)
   {
     case 1:
@@ -30,9 +29,12 @@ int main() {
     case 3:
       salaryBonus = independents >= 2 ? 0.05 : 0.02;
       break;
+
+    default:
+      printf("Invalid category\n");
   }
 
-  finalSalary += salaryBonus * (100 + salaryBonus);
+  finalSalary += (100 * salaryBonus);
 
   printf("Final salary by category (including a bonus of %.2f%%): %.2f\n", (salaryBonus * 100), finalSalary);
 
