@@ -21,7 +21,7 @@ int main() {
 
   float finalPriceWithDiscount = shoppingItemsValue - (shoppingItemsValue * shoppingDiscount);
 
-  printf("\n\nFinal price details");
+  printf("\n\n- - - - Final price details - - - -");
   printf("\nFinal Price (with discount): %.2f", finalPriceWithDiscount);
 
   printf("\nDiscount: %.2f", shoppingDiscount);

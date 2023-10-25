@@ -3,33 +3,38 @@
 
 int main() {
 
-  printf("Insert your salary: ");
+  printf("Insert your category: ");
 
-  int salary;
-  scanf("%d", &salary);
+  int category;
+  scanf("%d", &category);
 
   printf("Insert number of independents: ");
   int independents;
+
   scanf("%d", &independents);
   float salaryBonus, finalSalary;
 
+  finalSalary = category == 1 ? 600 : category == 2 ? 750 : 1000;
 
-  switch (salary)
+  printf("\nsalary bonus: %d\n category: %d\n", salaryBonus, category);
+
+
+  switch (category)
   {
-    case 600:
+    case 1:
       salaryBonus = independents >= 2 ? 0.09 : 0.05;
       break;
-    case 750:
+    case 2:
       salaryBonus = independents >= 2 ? 0.07: 0.03;
       break;
-    case 1000:
+    case 3:
       salaryBonus = independents >= 2 ? 0.05 : 0.02;
       break;
   }
 
-  finalSalary = salary * (1 + salaryBonus);
+  finalSalary += salaryBonus * (100 + salaryBonus);
 
-  printf("Final salary (including a bonus of %.2f%%): %.2f\n", (salaryBonus * 100), finalSalary);
+  printf("Final salary by category (including a bonus of %.2f%%): %.2f\n", (salaryBonus * 100), finalSalary);
 
   return 0;
 }
