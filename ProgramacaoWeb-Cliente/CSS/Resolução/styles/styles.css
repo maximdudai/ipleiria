@@ -1,0 +1,325 @@
+/*2a*/
+body{
+    position: relative;
+    background-color: rgb(239, 239, 239); 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    width: 950px;
+    margin: 15px auto;
+}
+
+/*2b*/
+#zonaPublicidade{
+    position: absolute;
+    top:0px;
+    right: -150px;
+    width: 140px;
+}
+
+/*2c*/
+body > header{
+    position: relative;
+    background-color: white;
+    height: 110px;
+    padding: 10px 0 0 0;
+    margin: 0;
+}
+
+/*2d*/
+#zonaFotografia{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    right: 30px;    
+    background-image: url("../img/bilhetes_pipocas_oculos_3d_v3.jpg") ;
+    border-radius: 60px;
+    box-shadow: 0 0 10px rgb(234, 234, 234); 
+}
+
+/*2e*/
+#zonaLogotipo, #zonaTitulos{
+    float: left;
+    height: 90px;
+}
+
+/*2f*/
+#zonaLogotipo{    
+    width: 134px;
+    margin-left: 30px;
+}
+
+/*2f*/
+#zonaLogotipo img{    
+    margin-top: 7px;
+    height:70px;
+}
+
+/*2g*/
+#zonaTitulos{
+    margin-left: 10px;
+    width: calc(100% - 344px);
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+/*2h*/
+#zonaTitulos h1{
+    margin: 0;
+    font-size: 40pt;
+    color:  #9c4b1c;
+}
+
+/*2h*/
+#zonaTitulos h1:first-letter{
+    color: black;
+}
+
+/*2h*/
+#zonaTitulos h3{
+    margin: 0;
+}
+
+/*2i*/
+nav{
+    background-color: white;
+    padding: 0 6px;
+    margin: 0; 
+    border-style: solid;
+    border-width: 3px 0 3px 0;
+    border-color: #9c4b1c;   
+    min-height: 48px;
+
+}
+
+/*2i*/
+nav ul{
+    padding: 0;
+    margin: 0;
+}
+
+/*2j*/
+nav li{
+    list-style: none;
+    display: inline-block;
+    margin: 8px 4px;
+    padding: 0 10px 0 10px;
+    background-color: #ffffff; 
+    height: 30px;
+    line-height: 30px; 
+}
+
+/*2k*/
+nav#paginacao {
+    text-align:center;    
+}
+
+/*2k*/
+#menuPrincipal li:last-child{
+    float: right;
+}
+
+#menuPrincipal li :not(:last-child){
+    float: left;
+} 
+
+/*2l*/
+nav li a{
+    text-decoration: none;
+    color: #9C4B1C;
+}
+
+/*2l*/
+nav li.itemSelecionado, nav li.itemSelecionado a, nav li:hover, nav li:hover a, nav li a:hover{
+    background-color: #9c4b1c;
+    color: white;
+}
+
+/*2l*/
+nav li.itemDesativado{
+    background-color: lightgray;
+    color: darkgray;
+}
+
+/*2m*/
+footer{
+    background-color: white;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 9pt;
+    font-style: italic;
+}
+
+/*2n*/
+#zonaConteudo{
+    background-color: white;
+    padding: 0;
+    margin: 0;  
+    font-size: 11pt;
+    width: 100%;
+}
+
+/*2o*/
+#zonaConteudo h2{
+    display: inline-block;
+    margin:  0 10px;
+    font-size: 20pt;
+    color:  black; 
+    letter-spacing: 3pt;
+    text-align: left;
+    border-bottom-style: dotted;
+    border-bottom-width: 2px;
+    border-bottom-color: #9c4b1c; 
+}
+
+/*2o*/
+#zonaConteudo h2:first-letter{
+    font-size: 150%;
+    font-weight: bold;
+}
+
+/*2p*/
+#zonaConteudo table {
+    width: 96%;
+    margin: 20px 2%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: left;
+    border: 1px solid black;
+}
+#zonaConteudo table th,#zonaConteudo table td{
+    border-left: 1px solid black;
+} 
+
+/*2q*/
+#zonaConteudo tbody tr{
+    border-bottom: 1px dashed #9c4b1c;
+}
+
+/*2q*/
+#zonaConteudo tbody tr:nth-child(4n){
+    border-bottom: 1px solid black;
+}
+
+/*2q*/
+#zonaConteudo thead {
+    border-bottom: 3px double black;
+    color: black;
+}
+
+/*2q*/
+#zonaConteudo tbody tr:hover{
+    background-color: #939393;
+    color: white;
+}
+
+/*2r*/
+#gridListFilmes td:last-child{
+    width: 30px;
+    padding: 0;
+}
+
+/*2r*/
+#gridListFilmes td:last-child img{
+    width: 28px;
+    height: 28px;
+    margin-top:2px;
+}
+
+/*2s*/
+.formFicha {
+    border-bottom: 3px solid #9c4b1c;
+    margin-top:1%;
+}
+/*2t*/
+input, select, textarea{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+}
+
+/*2u*/
+.formFicha>fieldset{
+    display: block;
+    margin: 0 2% 1%;
+    padding: 1%;
+    border: 1px solid #9c4b1c;
+}
+
+/*2v*/
+.formFicha>fieldset>legend{
+    font-size: 12pt;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+/*2w*/
+label{
+    display: inline-block;  
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    line-height: 24px;
+    height: 24px;
+    margin: 0 2px;
+    padding: 2px 5px;
+    letter-spacing: 1px;
+}
+
+/*2x*/
+#grpGeral label, #grpAtores label{
+    text-align: right;
+    width: 130px;    
+}
+
+/*2x*/
+#grpGenre label, #grpIdioma label{
+    width: calc(100% - 75px);
+}
+
+/*2y*/
+#grpBotoes{
+    text-align: center;
+    border-width: 0px;
+}
+
+/*2y*/
+input[type="text"]{
+    display: inline-block;
+    height: 24px;
+    line-height: 24px;
+    margin: 1px 2px;
+    padding: 2px 5px;
+    border: 1px solid black;
+    width: calc(100% - 180px);
+    background-color: white;
+}
+/*2y*/
+.conjuntoField.small input[type="text"]{
+    width: 100px;
+}
+/*2z*/
+#grpDescricao textarea{
+    resize: none;
+    height: 100px;
+    width: 98%;
+    margin-left:1%;
+    padding:0;
+}
+
+/*2aa*/
+input[type="checkbox"], input[type="radio"]{
+    margin-left: 10px;
+    width: 20px;
+}
+
+/*2bb*/
+#grpGeral, #grpAtores{
+	float: left;
+	width: 60%;
+}
+#grpGenre, #grpIdioma{
+	clear: right;
+}
+#grpDescricao, #grpBotoes{
+	clear: both;
+ 
+}

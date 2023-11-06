@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Cinema 1</title>
+        <link rel="stylesheet" type="text/css" href="styles/normalize.css">
+        <link rel="stylesheet" type="text/css" href="styles/styles.css">
+        <meta name="viewport" content="width=device-width">
+    </head>
+    <body>
+        <header>
+            <div id="zonaLogotipo">
+                <a href="listafilmes.html"><img src="img/cinema_logo.jpg" alt="Logotipo do Cinema 1"></a>
+            </div>
+            <div id="zonaTitulos">
+                <h1>Cinema 1</h1>
+                <h3>Mais entretenimento</h3>
+            </div>
+            <div id="zonaFotografia"></div>
+        </header>
+        <nav id="menuPrincipal">
+            <ul>
+                <li><a href="#">Homepage</a></li>
+                <li><a href="listafilmes.html">Filmes</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li class="itemDesativado">Promoções</li>
+                <li><a href="#">Outros</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </nav>    
+        <section id="zonaConteudo">
+            <header>
+                <h2>Ficha Técnica</h2>
+            </header>
+            <form action="#" method="POST" id="formDetalheElemento" class="formFicha">
+                <fieldset id="grpGeral">
+                    <legend>Geral</legend>
+                    <div class="conjuntoField small">
+                        <label for="campoAno">Ano</label>
+                        <input type="text" name="ano" id="campoAno" value="2012">
+                    </div>
+                    <div class="conjuntoField">
+                        <label for="campoTitle">Titulo</label>
+                        <input type="text" name="title" id="campoTitle" value="The Avengers">
+                    </div>
+                    <div class="conjuntoField">
+                        <label for="campoPais">País</label>
+                        <input type="text" name="pais" id="campoPais" value="United States">
+                    </div>
+                    <div class="conjuntoField">
+                        <label for="campoDiretor">Director</label>
+                        <input type="text" name="diretor" id="campoDiretor" value="Joss Whedon">
+                    </div>
+                    <div class="conjuntoField">
+                        <label for="campoEscritor">Escritor</label>
+                        <input type="text" name="escritor" id="campoEscritor" value="Joss Whedon">
+                    </div>
+                </fieldset>
+                <fieldset id="grpAtores">
+                    <legend>Atores</legend>
+                    <div class="conjuntoField">
+                        <label for="campoAtor1">Ator1</label>
+                        <input type="text" name="ator1" id="campoAtor1" value="Robert Downey Jr.">
+                    </div>
+                    <div class="conjuntoField">
+                        <label for="campoAtor2">Ator 2</label>
+                        <input type="text" name="ator2" id="campoAtor2" value="Chris Evans">
+                    </div>
+                    <div class="conjuntoField">
+                        <label for="campoAtor3">Ator 3</label>
+                        <input type="text" name="ator3" id="campoAtor3" value="Scarlett Johansson">
+                    </div>
+                </fieldset>        
+                <fieldset id="grpGenre">
+                    <legend>Genéro</legend>
+                    <input type="checkbox" id="campoGenero1" name="genero" checked>
+                    <label for="campoGenero1">Ação</label>
+                    <input type="checkbox" id="campoGenero2" name="genero">
+                    <label for="campoGenero2">Terror</label>
+                    <input type="checkbox" id="campoGenero3" name="genero" checked>
+                    <label for="campoGenero3">Ficção Científica</label>
+                </fieldset>
+                <fieldset id="grpIdioma">
+                    <legend>Idioma</legend>
+                    <input type="radio" id="campoIdioma1" name="idioma" value="EN" checked>
+                    <label for="campoIdioma1">Inglês</label>
+                    <input type="radio" id="campoIdioma2" name="idioma" value="FR">
+                    <label for="campoIdioma2">Francês</label>
+                    <input type="radio" id="campoIdioma3" name="idioma" value="PT">
+                    <label for="campoIdioma3">Português</label>
+                    <input type="radio" id="campoIdioma4" name="idioma" value="ES">
+                    <label for="campoIdioma4">Espanhol</label>   
+                </fieldset>
+                <fieldset id="grpDescricao">
+                    <legend>Descrição</legend>
+                    <textarea name="descricao">Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity</textarea>
+                </fieldset>
+                <fieldset id="grpBotoes">
+                    <input type="reset" value="Cancelar">
+                    <input type="submit" value="Guardar">
+                </fieldset>
+            </form>
+        </section>
+
+        <aside id="zonaPublicidade">
+            <a href="http://www.ipleiria.pt"><img src="img/pub-1.jpg" alt="Imagem de publicidade 1"></a>
+            <a href="http://www.estg.ipleiria.pt/"><img src="img/pub-2.png" alt="Imagem de publicidade 2"></a>
+        </aside>
+
+        <footer>
+            @Copyright 2023, IPLeiria
+        </footer>
+    </body>
+</html>
