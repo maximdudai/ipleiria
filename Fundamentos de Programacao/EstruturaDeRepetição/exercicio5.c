@@ -1,38 +1,23 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main() {
+int main()
+{
+  int tamanhoLetra;
 
-  int tamanhoLetra = 0, contador = 0;
+  printf("Tamanho da letra: ");
+  scanf("%d", &tamanhoLetra);
 
-  do {
-
-    printf("Tamanho da letra: ");
-    scanf("%d", &tamanhoLetra);
-
-  } while(tamanhoLetra < 0);
-
-  // linha |
-  // coluna -
-
-  printf("-------- INICIO ------------\n");
-
-  while(contador <= tamanhoLetra) {
-
-    for(int linha = 1; linha <= tamanhoLetra; linha++) {
-
-      for(int coluna = 1; coluna <= tamanhoLetra; coluna++) {
-
-        if(coluna == 1 || coluna == tamanhoLetra || linha == tamanhoLetra - linha)
-          printf("*");
-        else
-          printf("\n");
-      }
+  for (int linha = 1; linha <= tamanhoLetra; linha++)
+  {
+    for (int coluna = 1; coluna <= tamanhoLetra; coluna++)
+    {
+      if (coluna == 1 || coluna == tamanhoLetra || coluna == linha)
+        printf("*");
+      else
+        printf(" ");
     }
-    contador ++;
+    printf("\n");
   }
-
-  printf("\n-------- FiM ------------");
-
   return 0;
 }
