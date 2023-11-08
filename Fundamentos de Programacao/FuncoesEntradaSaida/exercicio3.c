@@ -12,8 +12,5 @@ int main() {
   printf("With signal +: %+f\n", number);
   printf("Aligned to right: %10.3f\n", number);
   printf("Aligned to right: %010.3f\n", number);
-
-
-  
   return 0;
 }
