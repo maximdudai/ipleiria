@@ -24,7 +24,7 @@ const fillBirthYearSelect = () => {
 document.addEventListener('DOMContentLoaded', () => fillBirthYearSelect())
 
 
-const isGenderSelected = () => { 
+const isGenderSelected = () => {
   const verifySelected = Array.from(genderSelect).some((_gen) => _gen.checked);
   return verifySelected;
 }
@@ -32,17 +32,11 @@ const isGenderSelected = () => {
 
 // validate Form
 const validateForm = () => {
-  if (!nameInput.value)
-    return false;
-
-  if (!emailInput.value)
-    return false;
-
-  if (!dataNascimentoInput.value)
+  if (!nameInput.value || !emailInput.value || !dataNascimentoInput.value)
     return false;
 
   if (!isGenderSelected())
-    return true;
+    return false;
 
   if (!termosEcondicoes.checked)
     return false;
@@ -56,6 +50,6 @@ submitForm.addEventListener("click", (event) => {
   if (validateForm()) {
     alert("Formulário enviado com sucesso!");
   }
-  else 
+  else
     alert("Preencha todos os campos!");
 });

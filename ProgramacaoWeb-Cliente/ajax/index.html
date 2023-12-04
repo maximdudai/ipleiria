@@ -11,6 +11,9 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+
+    <link rel="stylesheet" href="assets/styles/styles.css">
+
   </head>
   <body>
     <div class="container">
@@ -18,26 +21,35 @@
 
       <div class="mb-3">
         <input
+          id="input-search"
           type="text"
           class="form-control"
           name="input-search"
-          id="input-search"
           placeholder="Search movie..."
         />
         <button class="btn btn-primary my-3" id="btn-search">Procurar</button>
       </div>
 
-      <div class="list-filmes">
-        <div class="card card-movie">
-          <img src="..." class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
+      <div class="lista-filmes row">
+        <div class="card-movie co-sm-6 col-md-6 mb-4">
+          <a href="#" target="_blank" class="card-link">
+            <div class="card">
+              <img src="" class="card-img-top object-fit-cover img-movie" alt="" />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <button
+                  class="btn btn-primary add-fav"
+                  id="addToFavorite"
+                >
+                  favorite
+                </button>
+              </div>
+            </div>
+          </a>
         </div>
       </div>
     </div>
