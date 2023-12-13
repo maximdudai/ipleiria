@@ -1,3 +1,11 @@
+<?php 
+
+  $linguagens = array("HTML", "CSS", "JavaScript", "jQuery", "PHP");
+
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,6 +19,19 @@
 <body>
 
   
+  <form action="index.php" method="post">
+    <label for="linguagem">Linguagem:</label>
+    <select name="linguagem" id="linguagem">
+      <?php 
+        foreach($linguagens as $linguagem) {
+          echo "<option value='$linguagem'>$linguagem</option>";
+        }
+      ?>
+    </select>
+
+    <input type="submit" value="Enviar">
+  </form>
+
 
   <script src="script/script.js"></script>
 </body>
