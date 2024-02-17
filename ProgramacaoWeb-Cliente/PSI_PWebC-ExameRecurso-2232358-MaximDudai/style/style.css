@@ -1,0 +1,23 @@
+body {
+  color: black;
+}
+
+
+.topImage {
+  position: relative;
+  inset: 0px;
+  height: 10rem;
+
+  display: flex;
+  align-items: center;
+  color: green;
+
+  background-image: url('../assets/holidays.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.calendar-settings {
+  background: rgba(128, 128, 128, 0.439);
+} 

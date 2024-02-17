@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lista de Feriados</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+  </head>
+  <body>
+    <nav class="navbar bg-dark navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand text-success" href="#" class="--bs-success">Feriados</a>
+        <button
+          class="navbar-toggler text-light"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon bg-light"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-light" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light active" href="#">Favorites</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="topImage">
+      <h1 class="topImageTitle">
+        Feriados
+      </h1>
+    </div>
+
+    <div class="container-fluid">
+
+      <div class="calendar">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Data</th>
+              <th scope="col">Mes</th>
+              <th scope="col">Feriado</th>
+              <th scope="col">Nome Internacional</th>
+              <th scope="col">Favorito</th>
+            </tr>
+          </thead>
+
+          <tbody class="listaFeriados">
+            <tr class="tabelaFeriado">
+              <th class="dataFeriado" scope="row">1</th>
+              <td class="mesFeriado">Mark</td>
+              <td class="nomeFeriado">Otto</td>
+              <td class="nomeInternacional">@mdo</td>
+              <td class="toFavorites" colspan="2">
+                <button class="btn toggleFavorites adicionarFavorito">
+                  <i class="fa-regular fa-star"></i>
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+
+    <!-- Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/95003e81f5.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Source Code -->
+    <script src="src/script.js"></script>
+  </body>
+</html>
