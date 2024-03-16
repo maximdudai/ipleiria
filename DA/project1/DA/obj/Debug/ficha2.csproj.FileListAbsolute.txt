@@ -1,0 +1,20 @@
+C:\Users\edojo\Desktop\ESTG   PSI\S2\DA\ficha2\obj\Debug\ficha2.csproj.AssemblyReference.cache
+C:\Users\edojo\Desktop\ESTG   PSI\S2\DA\ficha2\obj\Debug\ficha2.Form1.resources
+C:\Users\edojo\Desktop\ESTG   PSI\S2\DA\ficha2\obj\Debug\ficha2.Properties.Resources.resources
+C:\Users\edojo\Desktop\ESTG   PSI\S2\DA\ficha2\obj\Debug\ficha2.csproj.GenerateResource.cache
+C:\Users\edojo\Desktop\ESTG   PSI\S2\DA\ficha2\obj\Debug\ficha2.csproj.CoreCompileInputs.cache
+C:\Users\edojo\Desktop\ESTG   PSI\S2\DA\ficha2\bin\Debug\ficha2.exe.config
+C:\Users\edojo\Desktop\ESTG   PSI\S2\DA\ficha2\bin\Debug\ficha2.exe
+C:\Users\edojo\Desktop\ESTG   PSI\S2\DA\ficha2\bin\Debug\ficha2.pdb
+C:\Users\edojo\Desktop\ESTG   PSI\S2\DA\ficha2\obj\Debug\ficha2.exe
+C:\Users\edojo\Desktop\ESTG   PSI\S2\DA\ficha2\obj\Debug\ficha2.pdb
+D:\OneDrive - IPLeiria\iplGitHub\DA\project1\DA\bin\Debug\ficha2.exe.config
+D:\OneDrive - IPLeiria\iplGitHub\DA\project1\DA\bin\Debug\ficha2.exe
+D:\OneDrive - IPLeiria\iplGitHub\DA\project1\DA\bin\Debug\ficha2.pdb
+D:\OneDrive - IPLeiria\iplGitHub\DA\project1\DA\obj\Debug\ficha2.csproj.AssemblyReference.cache
+D:\OneDrive - IPLeiria\iplGitHub\DA\project1\DA\obj\Debug\ficha2.Form1.resources
+D:\OneDrive - IPLeiria\iplGitHub\DA\project1\DA\obj\Debug\ficha2.Properties.Resources.resources
+D:\OneDrive - IPLeiria\iplGitHub\DA\project1\DA\obj\Debug\ficha2.csproj.GenerateResource.cache
+D:\OneDrive - IPLeiria\iplGitHub\DA\project1\DA\obj\Debug\ficha2.csproj.CoreCompileInputs.cache
+D:\OneDrive - IPLeiria\iplGitHub\DA\project1\DA\obj\Debug\ficha2.exe
+D:\OneDrive - IPLeiria\iplGitHub\DA\project1\DA\obj\Debug\ficha2.pdb

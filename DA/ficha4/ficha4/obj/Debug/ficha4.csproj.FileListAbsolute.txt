@@ -1,0 +1,10 @@
+D:\OneDrive - IPLeiria\iplGitHub\DA\ficha4\ficha4\bin\Debug\ficha4.exe.config
+D:\OneDrive - IPLeiria\iplGitHub\DA\ficha4\ficha4\bin\Debug\ficha4.exe
+D:\OneDrive - IPLeiria\iplGitHub\DA\ficha4\ficha4\bin\Debug\ficha4.pdb
+D:\OneDrive - IPLeiria\iplGitHub\DA\ficha4\ficha4\obj\Debug\ficha4.csproj.AssemblyReference.cache
+D:\OneDrive - IPLeiria\iplGitHub\DA\ficha4\ficha4\obj\Debug\ficha4.Form1.resources
+D:\OneDrive - IPLeiria\iplGitHub\DA\ficha4\ficha4\obj\Debug\ficha4.Properties.Resources.resources
+D:\OneDrive - IPLeiria\iplGitHub\DA\ficha4\ficha4\obj\Debug\ficha4.csproj.GenerateResource.cache
+D:\OneDrive - IPLeiria\iplGitHub\DA\ficha4\ficha4\obj\Debug\ficha4.csproj.CoreCompileInputs.cache
+D:\OneDrive - IPLeiria\iplGitHub\DA\ficha4\ficha4\obj\Debug\ficha4.exe
+D:\OneDrive - IPLeiria\iplGitHub\DA\ficha4\ficha4\obj\Debug\ficha4.pdb
