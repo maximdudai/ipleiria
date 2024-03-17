@@ -41,7 +41,7 @@ namespace gerepessoas
 
         public override string ToString()
         {
-            return Nome + " ( " + Idade() + " )" + ": " + this.Pontos;
+            return $"{this.Nome} (idade: {this.Idade()}): {this.Pontos} pts";
         }
     }
 }
