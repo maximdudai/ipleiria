@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\OneDrive - IPLeiria\\iplGitHub\\TS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{48C1E27E-0126-4402-AC49-0E141EF731E7}|Ficha2-Client\\Ficha2-Client.csproj|d:\\onedrive - ipleiria\\iplgithub\\ts\\ficha2-client\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{48C1E27E-0126-4402-AC49-0E141EF731E7}|Ficha2-Client\\Ficha2-Client.csproj|solutionrelative:ficha2-client\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48C1E27E-0126-4402-AC49-0E141EF731E7}|Ficha2-Client\\Ficha2-Client.csproj|d:\\onedrive - ipleiria\\iplgithub\\ts\\ficha2-client\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48C1E27E-0126-4402-AC49-0E141EF731E7}|Ficha2-Client\\Ficha2-Client.csproj|solutionrelative:ficha2-client\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AF9A69B-DAAE-484C-8EA8-6C86E0D32FE8}|Ficha2-Server2\\Ficha2-Server2.csproj|d:\\onedrive - ipleiria\\iplgithub\\ts\\ficha2-server2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AF9A69B-DAAE-484C-8EA8-6C86E0D32FE8}|Ficha2-Server2\\Ficha2-Server2.csproj|solutionrelative:ficha2-server2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28BE670B-D6FB-495D-82C7-B400BA9E02D8}|Ficha2-Server1\\Ficha2-Server1.csproj|d:\\onedrive - ipleiria\\iplgithub\\ts\\ficha2-server1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28BE670B-D6FB-495D-82C7-B400BA9E02D8}|Ficha2-Server1\\Ficha2-Server1.csproj|solutionrelative:ficha2-server1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EC32666-3662-4ADB-A693-892ABBA912C9}|Ficha2-Server3\\Ficha2-Server3.csproj|d:\\onedrive - ipleiria\\iplgithub\\ts\\ficha2-server3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EC32666-3662-4ADB-A693-892ABBA912C9}|Ficha2-Server3\\Ficha2-Server3.csproj|solutionrelative:ficha2-server3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\OneDrive - IPLeiria\\iplGitHub\\TS\\Ficha2-Server3\\Program.cs",
+              "RelativeDocumentMoniker": "Ficha2-Server3\\Program.cs",
+              "ToolTip": "D:\\OneDrive - IPLeiria\\iplGitHub\\TS\\Ficha2-Server3\\Program.cs",
+              "RelativeToolTip": "Ficha2-Server3\\Program.cs",
+              "ViewState": "AQIAAEYAAAAAwDIzMzPTv1QAAABeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T18:38:27.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\OneDrive - IPLeiria\\iplGitHub\\TS\\Ficha2-Server1\\Program.cs",
+              "RelativeDocumentMoniker": "Ficha2-Server1\\Program.cs",
+              "ToolTip": "D:\\OneDrive - IPLeiria\\iplGitHub\\TS\\Ficha2-Server1\\Program.cs",
+              "RelativeToolTip": "Ficha2-Server1\\Program.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAcwCgAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T18:30:14.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\OneDrive - IPLeiria\\iplGitHub\\TS\\Ficha2-Server2\\Program.cs",
+              "RelativeDocumentMoniker": "Ficha2-Server2\\Program.cs",
+              "ToolTip": "D:\\OneDrive - IPLeiria\\iplGitHub\\TS\\Ficha2-Server2\\Program.cs",
+              "RelativeToolTip": "Ficha2-Server2\\Program.cs",
+              "ViewState": "AQIAAEYAAAAAMDMzM7MawFoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T17:57:42.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\OneDrive - IPLeiria\\iplGitHub\\TS\\Ficha2-Client\\Form1.cs",
+              "RelativeDocumentMoniker": "Ficha2-Client\\Form1.cs",
+              "ToolTip": "D:\\OneDrive - IPLeiria\\iplGitHub\\TS\\Ficha2-Client\\Form1.cs",
+              "RelativeToolTip": "Ficha2-Client\\Form1.cs",
+              "ViewState": "AQIAABAAAADgZmZmZuY1wE8AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T18:10:50.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\OneDrive - IPLeiria\\iplGitHub\\TS\\Ficha2-Client\\Form1.cs",
+              "RelativeDocumentMoniker": "Ficha2-Client\\Form1.cs",
+              "ToolTip": "D:\\OneDrive - IPLeiria\\iplGitHub\\TS\\Ficha2-Client\\Form1.cs [Design]",
+              "RelativeToolTip": "Ficha2-Client\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T17:58:14.231Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

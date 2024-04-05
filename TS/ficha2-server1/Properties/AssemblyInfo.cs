@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ficha2-server1")]
+[assembly: AssemblyTitle("Ficha2-Server1")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ficha2-server1")]
+[assembly: AssemblyProduct("Ficha2-Server1")]
 [assembly: AssemblyCopyright("Copyright ©  2024")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("1a191a0b-270d-4792-b9a2-92dd9479ebd9")]
+[assembly: Guid("28be670b-d6fb-495d-82c7-b400ba9e02d8")]
 
 // Version information for an assembly consists of the following four values:
 //

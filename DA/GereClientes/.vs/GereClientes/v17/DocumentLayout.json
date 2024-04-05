@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\OneDrive - IPLeiria\\iplGitHub\\DA\\GereClientes\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B5354753-C54D-4CDF-9B8F-776E49D18A83}|GereClientes.csproj|d:\\onedrive - ipleiria\\iplgithub\\da\\gereclientes\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5354753-C54D-4CDF-9B8F-776E49D18A83}|GereClientes.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5354753-C54D-4CDF-9B8F-776E49D18A83}|GereClientes.csproj|D:\\OneDrive - IPLeiria\\iplGitHub\\DA\\GereClientes\\compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5354753-C54D-4CDF-9B8F-776E49D18A83}|GereClientes.csproj|solutionrelative:compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5354753-C54D-4CDF-9B8F-776E49D18A83}|GereClientes.csproj|D:\\OneDrive - IPLeiria\\iplGitHub\\DA\\GereClientes\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B5354753-C54D-4CDF-9B8F-776E49D18A83}|GereClientes.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5354753-C54D-4CDF-9B8F-776E49D18A83}|GereClientes.csproj|D:\\OneDrive - IPLeiria\\iplGitHub\\DA\\GereClientes\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5354753-C54D-4CDF-9B8F-776E49D18A83}|GereClientes.csproj|solutionrelative:client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Client.cs",
+              "DocumentMoniker": "D:\\OneDrive - IPLeiria\\iplGitHub\\DA\\GereClientes\\Client.cs",
+              "RelativeDocumentMoniker": "Client.cs",
+              "ToolTip": "D:\\OneDrive - IPLeiria\\iplGitHub\\DA\\GereClientes\\Client.cs",
+              "RelativeToolTip": "Client.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAtwCkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T21:33:40.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Compra.cs",
+              "DocumentMoniker": "D:\\OneDrive - IPLeiria\\iplGitHub\\DA\\GereClientes\\Compra.cs",
+              "RelativeDocumentMoniker": "Compra.cs",
+              "ToolTip": "D:\\OneDrive - IPLeiria\\iplGitHub\\DA\\GereClientes\\Compra.cs",
+              "RelativeToolTip": "Compra.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T20:47:11.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\OneDrive - IPLeiria\\iplGitHub\\DA\\GereClientes\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\OneDrive - IPLeiria\\iplGitHub\\DA\\GereClientes\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAAHMAAAAAAAAAAAAQwIcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T19:52:21.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\OneDrive - IPLeiria\\iplGitHub\\DA\\GereClientes\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\OneDrive - IPLeiria\\iplGitHub\\DA\\GereClientes\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T19:25:23.169Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
